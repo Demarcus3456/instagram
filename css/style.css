@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gold;
+}
+
+/* Menu */
+
+.menu {
+    background-color: white;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 130px;
+}
+
+.menu-img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.m-buttons {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 35px;
+    gap: 40px;
+}
+
+/* Home */
+
+.letters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid green;
+    height: 200px;
+}
+
+.size {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+.d {
+    border: 5px solid green;
+    width: 60px;
+}
+
+.m {
+    border: 5px solid red;
+    width: 60px;
+}
+
+.a {
+    border: 5px solid blue;
+    width: 60px;
+}
+
+.r {
+    border: 5px solid black;
+    width: 60px;
+}
+
+.k {
+    border: 5px solid white;
+    width: 60px;
+}
